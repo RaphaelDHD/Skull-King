@@ -1,0 +1,6 @@
+{
+    "docify.commentService.programmingLanguage": "javascript",
+    "docify.commentService.docstringFormat": "JavaDoc",
+    "docify.commentService.autoTranslationService": "French",
+    "docwriter.style": "Doxygen"
+}

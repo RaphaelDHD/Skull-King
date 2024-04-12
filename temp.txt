@@ -1,0 +1,119 @@
+<?php
+
+$dsn = 'sqlite:database.db';
+try {
+$pdo = new PDO($dsn, null, null, [ PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+$statement = $pdo->prepare("UPDATE users SET updated = :datee");
+
+$today = date("d/m/Y H:m:s");
+
+$statement->execute(        
+    [
+        'datee' => $today
+    ]
+);
+
+$statement3 = $pdo->prepare("SELECT * FROM users");
+$statement3->execute();
+$resultat = $statement3->fetchAll();
+
+
+foreach ($resultat as $row){
+    set_time_limit(30);
+    $statement2 = $pdo->prepare("UPDATE users SET password = :passworde WHERE id = {$row['id']}");
+    $statement2->execute(
+        [
+            'passworde' => password_hash('toto', PASSWORD_DEFAULT)
+        ]
+    );
+}
+
+echo $statement-> rowcount() . ' lignes mises à jour ' ;
+
+} catch (PDOException $e) {
+echo $e->getMessage() . 'code erreur : ' . $e->getCode();
+}
+echo 'Connexion à la base réussie';
+
+
+
+
+.imgPlayer{
+    position absolute;
+    bottom 28%;
+    left 47%;
+    width 7%;
+  }
+
+.cardPari{
+    margin-right: 2%;
+    margin-top: -13%;
+    width: 10%;
+  }
+
+  .playercard1{
+    margin-left: 10%;
+  }
+
+  .playercard2{
+    margin-left: 10%;
+  }
+
+  .playercard3{
+    margin-left: 10%;
+  }
+
+  .playercard4{
+    margin-left: 10%;
+  }
+
+  .playercard5{
+    margin-left: 10%;
+  }
+
+  .playercard6{
+    margin-left: 10%;
+  }
+
+  .playercard7{
+    margin-left: 10%;
+  }
+
+  .playercard8{
+    margin-left: 10%;
+  }
+
+  .playercard9{
+    margin-left: 10%;
+  }
+
+  .playercard10{
+    margin-left: 10%;
+  }
+
+.Polygon_1{
+    position: absolute;
+    width: 45%;
+    left: -15%;
+    bottom: -2%;
+    z-index: 0;
+    background: none;
+}
+
+.Polygon_2{
+    position: absolute;
+    width: 50%;
+    bottom : 102%;
+    right: -12%;  
+    z-index: 0;
+}
+
+pariDiv.innerHTML = '<img class="TigresseC TigresseCard" src="/TD.png">';
+      pariDiv.innerHTML += '<img class="TigresseC TigresseCard" src="/TP.png">';
+
+app.use(express.static(path.join(__dirname, '../')));
+
+
+
+
+

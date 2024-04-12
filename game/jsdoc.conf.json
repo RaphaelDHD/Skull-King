@@ -1,0 +1,9 @@
+{
+    "source": {
+        "include": ["./public/js/index.js","./app.js"]
+    },
+    "opts": {
+        "destination": "./out",
+        "recurse": true
+    }
+}

@@ -1,0 +1,233 @@
+/* CSS des pages cartes */
+
+* {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Montserrat', sans-serif;
+    background: #F5F5F5;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+a {
+    color: #FFB800;
+    text-decoration: none;
+}
+
+.FlecheJaune{
+    width: 2%;
+    height: auto;   
+    padding: 1%;
+    position: absolute;
+    margin-top: 2.5%;
+    margin-left: -47%;
+    background: #6C5C4E;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+}
+
+h1{
+    position: absolute;
+    color : #c0c0c0;
+    margin-top: 3%;
+    margin-left: -40%;
+    background: none;
+}
+
+.RondRouge{
+    position: absolute;
+    top:0%;
+    right: 0%;
+    width: 50%;
+}
+
+img{
+    background : none;
+}
+
+.Rouge{
+    position: absolute;
+    width: 15%;
+    top: 25%;
+    left: 30% 
+}
+
+.Rouge_Desc{
+    position: absolute;
+    width: 15%;
+    top: 25%;
+    left: 52%;
+}
+
+.carre_rouge{
+    background-color: #FF3939;
+    width: 2.5%;
+    height: 3%;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom : 10%;
+    left : 22.5%;
+    cursor: pointer; 
+}
+
+.carre_bleu{
+    background-color: #397DFF;
+    width: 2.5%;
+    height: 3%;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom : 10%;
+    left : 28.5%;
+    cursor: pointer; 
+}
+
+.carre_jaune{
+    background-color: #FFD439;
+    width: 2.5%;
+    height: 3%;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom : 10%;
+    left : 34.5%;
+    cursor: pointer; 
+}
+
+.carre_noir{
+    background-color: #383838;
+    width: 2.5%;
+    height: 3%;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom : 10%;
+    left : 40.5%;
+    cursor: pointer; 
+}
+
+.carre_blanc{
+    background-color: #FFFFFF;
+    width: 2.5%;
+    height: 3%;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom : 10%;
+    left : 46.5%;
+    cursor: pointer; 
+}
+
+.carre_rose{
+    background-color: #FF55E4;
+    width: 2.5%;
+    height: 3%;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom : 10%;
+    left : 52.5%;
+    cursor: pointer; 
+}
+
+.carre_vert{
+    background-color: #0FB10C;
+    width: 2.5%;
+    height: 3%;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom : 10%;
+    left : 58.5%;
+    cursor: pointer; 
+}
+
+.carre_gris{
+    background-color: #797979;
+    width: 2.5%;
+    height: 3%;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom : 10%;
+    left : 64.5%;
+    cursor: pointer; 
+}
+
+.carre_violet{
+    background-color: #991BD4;
+    width: 2.5%;
+    height: 3%;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom : 10%;
+    left : 70.5%;
+    cursor: pointer; 
+}
+
+.Vector{
+    margin-top: 5%;
+    width: 60%;
+    height: 80%;
+}
+
+.Ancre{
+    margin-top: 5%;
+    width: 60%;
+    height: 80%;
+}
+
+.coin{
+    margin-top: 5%;
+    width: 90%;
+    height: 80%;
+}
+
+.cannon{
+    margin-top: 5%;
+    width: 60%;
+    height: 80%;
+}
+
+.drapeau{
+    margin-top: 5%;
+    width: 60%;
+    height: 80%;
+}
+
+.mermaid{
+    margin-top: 5%;
+    width: 70%;
+    height: 90%;
+}
+
+.tigresse{
+    margin-top: -15%;
+    width: 120%;
+    height: 160%;
+}
+
+.pirate{
+    margin-top: 7%;
+    width: 70%;
+    height: 90%;
+}
+
+.skullking{
+    margin-top: -20%;
+    margin-left: -23%;
+    width: 150%;
+    height: 250%;
+}
+
+

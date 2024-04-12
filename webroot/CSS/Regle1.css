@@ -1,0 +1,125 @@
+/* CSS de la page connection */
+
+* {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Montserrat', sans-serif;
+    background: #F5F5F5;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    color: #FFB800;
+    text-decoration: none;
+}
+
+img{
+    width: 2%;
+    height: auto;   
+    padding: 1%;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -45%;
+    background: #6C5C4E;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+}
+
+h1{
+    position: absolute;
+    color : #c0c0c0;
+    margin-top: 4.5%;
+    margin-left: -40%;
+    background: none;
+}
+
+.p_principal{ 
+    text-align: left;
+    color: #6A5F59;
+    font-weight: 700;
+    font-size: 148%;
+    position: absolute;
+    margin-top: 55%;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+.p2{ 
+    margin-top: 3%;
+    margin-right: 50%;
+}
+
+.p3{ 
+    margin-top: 3%;
+    margin-right: 50%;
+}
+
+.p4{
+    margin-top: 3%; 
+    margin-right: 50%;
+}
+
+.resultat{ 
+    text-align: left;
+    color: #444444;
+    font-weight: 700;
+    font-size: 148%;
+    position: absolute;
+    margin-top: 63%;
+    margin-left: 58%;
+    margin-right: 4%;
+    background: rgba(214, 214, 214, 0.3);
+    border-radius: 2%;
+    padding: 1.5%;
+    padding-bottom: 2.5%;
+}
+
+h2{
+    background: none;
+    font-size: 100%;
+    font-weight: 800;
+}
+
+.p5{
+    margin-top: 5%;
+    background: none;
+}
+
+.p6{
+    margin-top: 2%;
+    background: none;
+}
+
+.p7{
+    margin-top: 5%;
+    background: none;
+}
+
+.p8{
+    margin-top: 2%;
+    background: none;
+}
+
+.jaune{
+    color: #FFB800;
+    background: none;
+}
+
+.vert{
+    color: #0FB10C;
+    background: none
+}
+
+.rouge{
+    color : #FF3D00;
+    background: none
+}
+

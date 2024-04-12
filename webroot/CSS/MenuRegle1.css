@@ -1,0 +1,118 @@
+/* CSS de la page connection */
+
+* {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Montserrat', sans-serif;
+    background: #F5F5F5;
+}
+
+/* Code pour le body */
+
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Regles {
+    width : 30%;
+    height: 36.25%;
+    position: absolute;
+    background-color: #D6D6D6;
+    left: 14%;
+    top : 10%;
+    text-align: left;
+}
+
+h1 {
+    color: #444444;
+    font-weight: 1000;
+    font-size: 200%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 10%;
+    background-color: #D6D6D6;
+}
+
+p {
+    height: 100%;
+    padding: 10%;
+    text-align:left;
+    background-color: #D6D6D6;
+    color: #6A5F59;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+.Cartes {
+    position: absolute;
+    width: 35%;
+    right: 10%;
+    top : 10%;
+    text-align:left;
+}
+
+h2 {
+    color: #444444;
+    font-weight: 1000;
+    font-size: 200%;
+    padding : 12%;
+    background-color: #D6D6D6;
+}
+
+.combo_carte{
+    position: absolute;
+    top: 12.5%;
+    left: 63%;
+    width: 40%;
+}
+
+.Hierarchie {
+    position: absolute;
+    width: 35%;
+    right: 10%;
+    top : 47.5%;
+    text-align:left;
+}
+
+h3 {
+    color: #444444;
+    font-weight: 1000;
+    font-size: 200%;
+    padding: 12%;
+    background-color: #D6D6D6;
+}
+
+.suite_carte{
+    position: absolute;
+    top: -25%;
+    left: 60%;
+    width: 45%;
+}
+
+a {
+    color: #FFB800;
+    background: none;
+    text-decoration: none;
+}
+
+#bouton {
+    position: absolute;
+    bottom: 15%;
+    width: 250px;
+    height: 38.8px;
+    background: #6C5C4E;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 100%;
+    border: none;
+}
+
+img{
+    width : 50%;
+    background : none;
+    z-index: 4;
+}

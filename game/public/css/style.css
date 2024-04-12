@@ -1,0 +1,447 @@
+* {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Montserrat', sans-serif;
+  background: #F5F5F5;
+}
+
+@font-face {
+  font-family: "PirateFont";
+  src: url("skullsandcrossbones-rppkm-webfont.woff") format("woff");
+}
+
+html {
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  -ms-transform: translateY(15%);
+  transform: translateY(15%);
+  min-height: 100%;
+  overflow: hidden;
+  height: 100%;
+  overflow: hidden;
+}
+
+img {
+  width: 15%;
+}
+
+.hide {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button[id^="card"] {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  width: 80px;
+  min-height: 132px;
+}
+
+button[id^="playing"] {
+  margin: 0;
+  margin-top: 1%;
+  margin: 1%;
+  padding: 0;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.parisButton {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  z-index: 1;
+}
+
+.TigresseCard {
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  cursor: pointer;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#TigresseC {
+  animation: MoveUpDown 1s linear infinite;
+}
+
+#pariDiv {
+  position: absolute;
+  top: 40%;
+  left: 14%;
+  background: none;
+}
+
+@keyframes MoveUpDown {
+
+  0%,
+  100% {
+    bottom: 0;
+  }
+
+  50% {
+    top: px;
+  }
+}
+
+.blur> :not(#pariDiv) {
+  filter: blur(8px);
+}
+
+#playing0 {
+  position: absolute;
+  width: 7%;
+  left: 42%;
+  top: 24%;
+}
+
+#playing1 {
+  position: absolute;
+  width: 7%;
+  left: 51%;
+  top: 24%;
+}
+
+#playing2 {
+  position: absolute;
+  width: 7%;
+  left: 60%;
+  top: 24%;
+}
+
+#playing3 {
+  position: absolute;
+  width: 7%;
+  left: 69%;
+  top: 24%;
+}
+
+#playing4 {
+  position: absolute;
+  width: 7%;
+  left: 33%;
+  top: 24%;
+}
+
+#playing5 {
+  position: absolute;
+  width: 7%;
+  left: 78%;
+  top: 24%;
+}
+
+.Polygon_2 {
+  position: absolute;
+  width: 50%;
+  bottom: 102%;
+  right: -12%;
+  z-index: 0;
+}
+
+#btnLetsPari {
+  position: absolute;
+  bottom: 17%;
+  left: 46.5%;
+  width: 7%;
+  z-index: 1;
+  padding-bottom: 0.5%;
+  padding-top: 0.4%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-radius: 5px;
+  font-size: medium;
+  background: #6C5C4E;
+  border: none;
+  font-weight: 700;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+  color: #FFB800;
+  transition: transform 0.5s ease;
+}
+
+#btnLetsPari:hover {
+  transform: scale(110%);
+}
+
+h2 {
+  display: none;
+}
+
+h1[id$="Name"] {
+  color: #3e2f23;
+}
+
+#tour {
+  border: solid 3px #6C5C4E;
+  position: absolute;
+  font-weight: bolder;
+  left: 78%;
+  background: none;
+  top: -11%;
+  padding: 0.5% 2% 0.5% 2%;
+  border-radius: 10px;
+  z-index: 1;
+  color: #6C5C4E;
+}
+
+.options {
+  position: absolute;
+  width: 4%;
+  left: 2%;
+  top: -11%;
+  cursor: pointer;
+}
+
+.HIG {
+  position: absolute;
+  right: 2%;
+  bottom: 19%;
+  width: 15%;
+  z-index: 0;
+}
+
+.HIG:hover {
+  width: 30%;
+}
+
+#boutonAccueil {
+  position: absolute;
+  bottom: 17%;
+  left: 46.5%;
+  width: 7%;
+  z-index: 1;
+  padding-bottom: 0.5%;
+  padding-top: 0.4%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-radius: 5px;
+  font-size: medium;
+  background: #6C5C4E;
+  border: none;
+
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+
+  transition: transform 0.5s ease;
+}
+
+a {
+  color: #FFB800;
+  font-weight: 700;
+  background: none;
+  text-decoration: none;
+}
+
+.nomTour {
+  background: none;
+  color: #FFB800;
+  text-decoration: none;
+}
+
+.alert {
+  padding: 1%;
+  background-color: rgb(0, 123, 255);
+  color: white;
+  position: absolute;
+  left: 7%;
+  top: -12%;
+  margin-bottom: 15px;
+  width: fit-content;
+  z-index: 2;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  background: none;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+#enemy {
+  margin-bottom: 5%;
+  min-height: 75px;
+}
+
+#player {
+  margin-top: 5%;
+}
+
+.enemy {
+  width: 45%;
+  margin: auto;
+}
+
+.backcard {
+  width: 10%;
+  margin-left: -2%;
+}
+
+.cardPari {
+  margin-right: 2%;
+  margin-top: -13%;
+  width: 10%;
+  cursor: pointer;
+}
+
+.imgPlayer {
+  width: 5%;
+  margin-top: 15%;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.imgPlayer:hover {
+  transform: translateY(-10%);
+}
+
+#scoreButton {
+  position: absolute;
+  bottom: 17%;
+  left: 2%;
+  width: 7%;
+  z-index: 1;
+  padding-bottom: 0.5%;
+  padding-top: 0.4%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-radius: 5px;
+  font-size: large;
+  background: #6C5C4E;
+  border: none;
+  font-weight: 700;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+  color: #FFB800;
+  transition: transform 0.5s ease;
+}
+
+#plisButton {
+  position: absolute;
+  bottom: 24%;
+  left: 2%;
+  width: 7%;
+  z-index: 1;
+  padding-bottom: 0.5%;
+  padding-top: 0.4%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-radius: 5px;
+  font-size: large;
+  background: #6C5C4E;
+  border: none;
+  font-weight: 700;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+  color: #FFB800;
+  transition: transform 0.5s ease;
+}
+
+#tableScore {
+  position: absolute;
+  bottom: 19%;
+  left: 10%;
+  color: #6C5C4E;
+  font-weight: bolder;
+  text-align: left;
+  z-index: 3;
+  border-collapse: collapse;
+  border: #6C5C4E solid 3px;
+  transition: transform 0.5s ease;
+}
+
+#tablePlis {
+  position: absolute;
+  bottom: 19%;
+  left: 10%;
+  color: #6C5C4E;
+  font-weight: bolder;
+  text-align: left;
+  z-index: 3;
+  border-collapse: collapse;
+  border: #6C5C4E solid 3px;
+  transition: transform 0.5s ease;
+}
+
+th {
+  /* tête de tableau */
+  padding: 10px 80px 10px 80px;
+  color: #FFB800;
+  font-size: large;
+}
+
+thead {
+  background-color: #6C5C4E;
+}
+
+td {
+  /* elements du tableau */
+  padding: 10px;
+  background-color: #F0F0F2;
+}
+
+th,
+tr,
+td {
+  background: none;
+}
+
+
+.BaW {
+  filter: grayscale(100%);
+}
+
+.Bcard {
+  width: 5%;
+}
+
+.Backcards1 {
+  position: absolute;
+  left: 42%;
+  top: 0%;
+}
+
+.Backcards2 {
+  position: absolute;
+  left: 51%;
+  top: 0%;
+}
+
+.Backcards3 {
+  position: absolute;
+  left: 60%;
+  top: 0%;
+}
+
+.Backcards4 {
+  position: absolute;
+  left: 69%;
+  top: 0%;
+}
+
+.Backcards5 {
+  position: absolute;
+  left: 33%;
+  top: 24%;
+}
+
+.Backcards6 {
+  position: absolute;
+  left: 78%;
+  top: 24%;
+}
